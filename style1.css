@@ -1,0 +1,362 @@
+*{
+    margin: 0;
+    padding: 0;   
+}
+body{
+    background-color:mintcream ;
+    font-family: 'Roboto', sans-serif;
+   
+    margin: 0 auto;
+    
+
+}
+.container{
+    
+    max-width: 100%;
+
+   background-color:silver;
+    margin: 0 auto;
+    padding: 20px;
+  
+}
+.mainimg{
+    
+    width: 100px;
+    height: 80px;
+  
+   border: 3px solid white;
+   border-radius: 50%;
+   
+   
+   padding: 20px;
+   float: left;
+}
+
+.bio{
+    padding: 20px;
+    float: left;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+}
+
+.clear{
+    clear:both;
+}
+.line{
+   border: 1px solid green;
+   
+    margin: 1rem;
+    
+}
+
+.text{
+    text-align: center;
+    background-color:green;
+    color: whitesmoke;
+}
+.menu{
+    width: 600px;
+    height: 80px;
+    margin-left: auto;
+}
+.menu ul li{
+    list-style-type: none;
+    margin: 20px;
+    float: left;
+}
+.menu ul li a{
+    text-decoration: none;
+    color:indigo;
+    font-family:fantasy;
+    cursor: pointer;
+    
+}
+.menu ul li a:hover{
+    text-decoration: underline;
+}
+
+.post{
+    text-align: center;
+    padding: 10px;
+    border: 1px blueviolet dotted;
+    color: darkred;
+    background-color:lavender
+}
+.post:hover{
+    background-color: yellowgreen;
+}
+.line1{
+    margin: 1rem;
+    border: 1px solid blue;
+}
+.container1{
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+}
+.text1{
+    padding: 10px;
+    margin: 2rem;
+    box-sizing: border-box;
+}
+.text1::first-letter{
+   color: darkslategrey;
+   font-size: 1.5rem;
+}
+.mainimg1{
+  max-width: 100%;
+  opacity: 0.5; 
+}
+.mainimg1:hover{
+    opacity: 1;
+}
+.pcredit{
+    text-align: center;
+   font-style: italic;
+   padding: 10px;
+}
+
+.post1:hover{
+    background-color:mediumseagreen;
+}
+.post2:hover{
+    background-color:darkolivegreen;
+}
+.line2{
+    margin: 1rem;
+
+   border: 1px solid green;
+}
+.line3{
+    margin: 1rem;
+    border: .5px solid yellow;
+}
+.mainimg2{
+    width: 100%;
+    opacity: 0.5;
+    
+   
+}
+.mainimg2:hover{
+
+    opacity: 1;
+}
+.text2{
+    padding: 10px;
+    margin: 2px;
+    
+}
+.text2::first-letter{
+    color: lightseagreen;
+    font-size: 1.5rem;
+}
+.text3::first-letter{
+    color: maroon;
+    font-size: 1.5rem;
+   
+}
+.text3{
+    padding: 10px;
+    margin: 2px;
+
+}
+.line4{
+   
+    margin: 1rem;
+    border: .5px solid blueviolet;
+}
+.post3:hover{
+    background-color: cornflowerblue;
+}
+.text4{
+    padding: 10px;
+    margin: 2px;
+
+}
+.text4::first-letter{
+    
+    color:plum;
+    font-size: 1.5rem;
+   
+}
+.line5{
+   
+    margin: 1rem;
+    border: .5px solid greenyellow;
+}
+.post4:hover{
+    background-color:orangered;
+}
+.text5{
+    padding: 10px;
+    margin: 2px;
+
+
+}
+.text5::first-letter{
+    color:seagreen;
+    font-size: 1.5rem;
+}
+
+.line6{
+   
+    margin: 1rem;
+    border: .5px solid rebeccapurple;
+}
+.post5:hover{
+    background-color:royalblue;
+}
+.text6{
+    padding: 10px;
+    margin: 2px;
+
+
+}
+.text6::first-letter{
+    color:sienna;
+    font-size: 1.5rem;
+}
+
+.line7{
+   
+    margin: 1rem;
+    border: .5px solid brown;
+}
+.post6:hover{
+    background-color:silver;
+}
+.text7{
+    padding: 10px;
+    margin: 2px;
+
+
+}
+.text7::first-letter{
+    color:peru;
+    font-size: 1.5rem;
+}
+
+.line8{
+   
+    margin: 1rem;
+    border: .5px solid darkmagenta;
+}
+.post7:hover{
+    background-color:darkslategray;
+}
+.text8{
+    padding: 10px;
+    margin: 2px;
+
+
+}
+.text8::first-letter{
+    color:purple;
+    font-size: 1.5rem;
+}
+
+.line9{
+   
+    margin: 1rem;
+    border: .5px solid turquoise;
+}
+.post8:hover{
+    background-color:indigo;
+}
+.text9{
+    padding: 10px;
+    margin: 2px;
+
+
+}
+.text9::first-letter{
+    color:navy;
+    font-size: 1.5rem;
+}
+
+.line10{
+   
+    margin: 1rem;
+    border: .5px solid orchid;
+}
+.post9:hover{
+    background-color:mediumvioletred;
+}
+.text10{
+    padding: 10px;
+    margin: 2px;
+
+
+}
+.text10::first-letter{
+    color:mediumblue;
+    font-size: 1.5rem;
+}
+
+.line11{
+   
+    margin: 1rem;
+    border: .5px solid aqua;
+}
+.post10:hover{
+    background-color:darkcyan;
+}
+.text11{
+    padding: 10px;
+    margin: 2px;
+
+
+}
+.text11::first-letter{
+    color:deeppink;
+    font-size: 1.5rem;
+}
+
+.clear1{
+    clear: both;
+}
+
+
+
+.foot{
+    margin: 0 auto;
+    background-color:green;
+    text-align: center;    
+    width:unset;
+    padding: 20px;    
+    
+
+}
+
+.line13{
+    margin: 1rem;
+    border: .5px solid wheat;
+}
+
+
+
+
+.foot a{
+    color:honeydew;     
+    margin: 20px;
+    padding: 20px;
+    font-family: cursive;
+    text-shadow: 2px 3px 5px black;
+}
+
+.foot h2{
+    font-family: sans-serif;
+    text-shadow: 2px 3px 5px white;
+    
+}
+.margin{
+    margin: 0 auto;
+    padding: 4px;
+    background-color:limegreen;
+    
+}
+
+
+
+
+
